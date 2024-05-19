@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header id="ballina">
+                <br><br><br><br><br><br>
+			<h1>Uebsite per Shenjat e Komunikacionit sipas Formes(USHKF)</h1>
+			</header>
+
+			<nav class="navigimi">
+                <svg class="semafori" viewBox="0 0 60 100">
+                    <!-- Black rectangle -->
+                    <rect x="10%" y="10%" width="80%" height="80%" fill="#000000"></rect>
+                    <!-- Red light -->
+                    <circle cx="50%" cy="25%" r="8%" fill="red"></circle>
+                    <!-- Orange light -->
+                    <circle cx="50%" cy="50%" r="8%" fill="orange"></circle>
+                    <!-- Green light -->
+                    <circle cx="50%" cy="75%" r="8%" fill="green"></circle>
+                </svg>
+				<ul>
+					<li><a href="#ballina">Ballina</a></li>
+                    <li><a href="#shenjat">Shenjat e komunikacionit</a></li>
+					<li><a href="#kontakti">Kontakti</a></li>
+				</ul>
+			</nav>
+			
+			<section id="shenjat">
+				<table>
+                    <tr>
+                        <td colspan="2">
+                            <h2>Forma Rrethore</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:50%; ">
+                            <div class="blloku-tabelav">
+                                <table>
+                                    <tr>
+                                        <td style="width: 35%; ">
+                                            <img src="Foto/fotorreth.png">
+                                        </td>
+                                        <td style="width:65%; " class="teksti-tabelav">
+                                            <b>Shenja e ndalimit:</b><br><br>
+                                            <u>Ndalim tejkalimi</u><br><hr>
+                                            <i>Ndalohet tejkalimi i te gjitha mjeteve me motor, pervec atyre me dy rrota.</i>   
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="blloku-tabelav">
+                                <table>
+                                    <tr>
+                                        <td style="width:35% ; ">
+                                            <img src="Foto/fotorreth1.png">
+                                        </td>
+                                        <td style="width:65%; " class="teksti-tabelav">
+                                            <b>Shenja e ndalimit:</b><br><br>
+                                            <u>Kufizim i shpejtesise maksimale</u><br><hr>
+                                            <i>Ndalohet qe mjetet te tejkalojne shpejtesine e treguar ne tabele.</i>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                        <td style="width:50%;">
+                            <iframe width="100%"  height="315" src="https://www.youtube.com/embed/A7GpS5TDOxo?si=R16rlNSz0cZKyWXD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                        </td>
+                    </tr>
+                </table>
+                <br>
+				<hr style="border-color:rgb(240, 165, 0) ;">
+                <br>
+				<table>
+                    <tr>
+                        <td colspan="2">
+                            <h2>Forma Trekendore</h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="width:50%;">
+                            <div class="blloku-tabelav">
+                                <table>
+                                    <tr>
+                                        <td style="width:35%; ">
+                                            <img src="Foto/fototrek.png">
+                                        </td>
+                                        <td style="width:65%; " class="teksti-tabelav">
+                                            <b>Shenja e rrezikut:</b><br><br>
+                                            <u>Trafiku ne te dy kahjet</u><br><hr>
+                                            <i>Shenon vendin prej nga trafiku fillon te qarkulloje ne te dy kahjet.</i>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="blloku-tabelav">
+                                <table>
+                                    <tr>
+                                        <td style="width:35%; ">
+                                            <img src="Foto/fototrek1.png">
+                                        </td>
+                                        <td style="width:65%; " class="teksti-tabelav">
+                                            <b>Shenja e rrezikut:</b><br><br>
+                                            <u>Femije ne rruge</u><br><hr>
+                                            <i>Shenon afersine e vendit ne rruge ku femijet levizin shpesh.</i>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                        <td style="width:50%;">
+                            <video width="100%"  controls>
+                                <source src="Video/video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <hr style="border-color: rgb(240, 165, 0);">
+                <audio controls >
+                    <source src="Audio/audio.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <hr style="border-color: rgb(240, 165, 0);">
+			</section>
+			<section id="kontakti">
+                <h2>Kontakti</h2>
+                <table style="width:100%;">
+                    <tr>
+                        <td style="width:55%; ">
+                            <form action="#" method="post" class="kontakt-forma">
+                                <h4>Forma per kontakt</h4>
+                                <hr>
+                                <input type="email" name="email" placeholder="Email" class="inputi">
+                                <br><br>
+                                <input type="text" name="subject" placeholder="Subject" class="inputi">
+                                <br><br>
+                                <textarea name="message" placeholder="Message" class="inputi"></textarea>
+                                <br><br>
+                                <input onclick="funksioni()" type="submit" name="add" value="Dergo" class="butoni-submit">
+                            </form>
+                        </td>
+                        <td>
+                            <div class="blloku-hartes">           
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6849.2910497866815!2d21.458105151968116!3d42.473885378842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13548d3829e9edf5%3A0xfe8b8aa0764e5c19!2sDheu%20i%20Bardh%C3%AB%2C%20Gjilan!5e0!3m2!1sen!2s!4v1716052176421!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            
+
+			<footer>
+            <span id="viti"></span>&nbsp;Copyright &#169 UKZ <br>
+            <div id="referencat">
+			Referencat:
+            <br>Foto: <a href="https://en.wikipedia.org/wiki/Prohibitory_traffic_sign#/media/File:UK_traffic_sign_632.svg" >Foto1</a>|<a href="https://en.wikipedia.org/wiki/Prohibitory_traffic_sign#/media/File:New_Zealand_road_sign_R1-1_(60).svg">Foto2</a>|<a href="https://en.m.wikipedia.org/wiki/File:Nederlands_verkeersbord_J29.svg">Foto3</a>|<a href="https://en.m.wikipedia.org/wiki/File:MK_road_sign_124.svg">Foto4</a>
+            <br>Video:<a href="https://www.youtube.com/watch?v=A7GpS5TDOxo">Video1</a>|<a href="https://www.youtube.com/watch?v=fHDAnP_4vHg">Video2</a>
+            <br>Audio:<a href="https://www.youtube.com/watch?v=Xi69bI9vKDg">Audio1</a>
+            </div>
+			</footer>
+            <script>
+                function funksioni() {
+                  alert("Mesazhi u dergua me sukses!");
+                }
+            </script>
+		</div>
+	</body>
+</html>

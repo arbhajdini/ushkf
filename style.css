@@ -1,0 +1,198 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    background-color:rgb(43, 43, 43); 
+    width: 100%;
+    font-family: Georgia, serif;
+}
+
+header {
+    background-color: rgb(59, 59, 59); 
+    color: rgb(240, 165, 0); 
+    width: 100%;
+    float: left;
+    border-radius:50px;
+    text-align: center;
+    font-size: 12px;
+    
+    
+}
+
+nav {
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    float: right;
+    top:0px;
+    position: fixed;
+    
+   
+}
+
+section {
+    padding-left: 10%;
+    width: 80%;
+    padding-top: 3%;
+}
+
+footer {
+    background-color: rgb(26, 26, 26);
+    color: rgb(240, 165, 0);
+    clear: both;
+    text-align: right;
+    padding: 2%;
+}
+
+.navigimi {
+    text-align: right;
+   
+}
+
+.navigimi ul {
+    display: inline-block;
+    margin-right: 5px;
+    
+}
+
+.navigimi li {
+    display: inline-block;
+    text-align: center;
+    padding-right: 0%;
+    
+}
+
+.navigimi ul li a {
+    display: inline-block;
+    transition: all linear 0.5s;
+    color: rgb(240, 165, 0); 
+    text-decoration: none;
+    padding: 10px 12px;
+    border-radius: 10px;
+    background-color:  rgb(26, 26, 26);
+    
+}
+
+.navigimi a:hover {
+    background-color: rgb(59, 59, 59); 
+    color: rgb(240, 165, 0);
+    border-radius: 10px;
+}
+
+.navigimi a:active {
+    background-color: rgb(240, 165, 0); 
+    color: rgb(26, 26, 26);
+}
+
+td {
+    background-color: rgb(59, 59, 59);
+    color: white;
+}
+
+
+
+.blloku-tabelav {
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 2%;
+    margin: 10px;
+    
+    
+}
+
+.blloku-tabelav img {
+    width: 100%;
+}
+
+.teksti-tabelav {
+    padding-left: 10px;
+}
+
+video {
+    border: 0px solid rgb(240, 165, 0);
+}
+
+
+h2 {
+    background-color: rgb(59, 59, 59); 
+    color: rgb(240, 165, 0); 
+    padding: 4%;
+    margin-top:0%;
+    margin-bottom: 0%;
+    
+    
+   
+}
+.kontakt-forma {
+    background-color: rgb(43, 43, 43); 
+    color: white;
+    padding: 5%;
+    margin:0 5% 0 5%;
+    border-radius: 10px; 
+    
+}
+
+.kontakt-forma h4 {
+    margin: 0;
+    color: rgb(240, 165, 0);
+}
+
+.kontakt-forma hr {
+    border-color: rgb(240, 165, 0); 
+}
+
+.inputi {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(59, 59, 59); 
+    color: white;
+}
+
+.butoni-submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(240, 165, 0); 
+    color: rgb(26, 26, 26); 
+    cursor: pointer;
+    
+}
+.butoni-submit:hover {
+    background-color: rgb(59, 59, 59);
+    color:rgb(240, 165, 0);
+    transition: all linear 0.5s;
+}
+
+.blloku-hartes {
+    background-color: rgb(43, 43, 43); 
+    border-radius: 10px; 
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.semafori {
+    width: 2%;
+    margin:1% 0 0 2%;
+    float:left;
+}
+audio{
+    width: 100%;
+    color: rgb(240, 165, 0);
+}
+#referencat a{
+    color:rgb(59, 59, 59)
+}
+
+
+
+
+
