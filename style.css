@@ -193,47 +193,6 @@ audio{
     color:rgb(59, 59, 59)
 }
 
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-    }
-
-    .navigimi ul {
-        display: block;
-        text-align: center;
-    }
-
-    .navigimi li {
-        display: block;
-        padding: 10px 0;
-    }
-
-    section {
-        padding: 5%;
-        width: 90%;
-    }
-
-    td {
-        display: block;
-        width: 100%;
-    }
-}
-
-@media (max-width: 480px) {
-    .navigimi ul li a {
-        padding: 10px 5px;
-    }
-
-    .blloku-tabelav {
-        padding: 5%;
-    }
-
-    .kontakt-forma {
-        margin: 0;
-        padding: 10px;
-    }
-}
-
 
 
 
